@@ -6,11 +6,8 @@ function! s:initialize_highlights() "{{{2
   " 整个区域颜色
   execute 'highlight TabLineFill cterm=NONE ctermfg=244 ctermbg=235 gui=NONE guifg=#FF0000 guibg=NONE'
   " 序号颜色
-  execute 'highlight TabLineTabNumber ctermbg=235 ctermfg=33 guibg=#5F5F5F guifg=#AFAE89'
+  execute 'highlight TabLineTabNumber ctermbg=235 ctermfg=33 guibg=#5F5F5F guifg=#88AE63'
   execute 'highlight TabLineTabNumberSel ctermbg=239 ctermfg=33 guibg=#618AFC guifg=#FFFFFF'
-  " 窗口数量提示
-  execute 'highlight TabLineWindowCount ctermbg=235 ctermfg=33 guibg=#5F5F5F guifg=#AFAE89'
-  execute 'highlight TabLineWindowCountSel ctermbg=239 ctermfg=33 guibg=#618AFC guifg=#FFFFFF'
   " 未保存提示
   execute 'highlight TabLineModifiedFlag ctermbg=235 ctermfg=red guibg=#5F5F5F guifg=#FC3B50'
   execute 'highlight TabLineModifiedFlagSel ctermbg=239 ctermfg=red guibg=#618AFC guifg=#FC3B50'
@@ -21,7 +18,7 @@ function! s:initialize_highlights() "{{{2
   execute 'highlight TabLineDividerLast  guibg=NONE guifg=#5F5F5F'
   execute 'highlight TabLineDividerLastSel guibg=NONE guifg=#618AFC'
   " 用户自定义
-  execute 'highlight TabLineUserLabel ctermfg=173 ctermbg=235 guifg=#FD8C25 guibg=#5F5F5F'
+  execute 'highlight TabLineUserLabel ctermfg=173 ctermbg=235 guifg=#59FF81 guibg=#5F5F5F'
   execute 'highlight TabLineUserLabelSel ctermfg=173 ctermbg=239 guifg=#FFFFFF guibg=#618AFC'
 endfunction
 function! s:initialize_dividers() "{{{2
